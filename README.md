@@ -20,7 +20,7 @@ Every major topic uses the same format:
 
 The goal is not to apply every rule mechanically. The goal is to understand the forces behind the rule and know when a trade-off justifies breaking it.
 
-After the parent topics, use the focused [Deep Dives](DEEP-DIVES.md) for senior-level practice and concrete design judgment.
+After the parent topics, use the focused [Deep Dives](DEEP-DIVES.md). After that, use [Senior Practice](16-senior-practice/README.md) to make design decisions under conflicting constraints instead of merely reciting principles.
 
 ## Learning order
 
@@ -41,6 +41,7 @@ After the parent topics, use the focused [Deep Dives](DEEP-DIVES.md) for senior-
 - [ ] 14. [Code Smells & Anti-Patterns](14-code-smells/README.md)
 - [ ] 15. [Senior Synthesis: Principles as Trade-offs](15-senior-synthesis/README.md)
 - [ ] Strengthen the core areas with [Deep Dives](DEEP-DIVES.md)
+- [ ] 16. [Senior Practice: Design Judgment Under Constraints](16-senior-practice/README.md)
 
 ## Topic map
 
@@ -62,6 +63,7 @@ flowchart TD
   M --> N
   N --> O[Code smells & anti-patterns]
   O --> P[Senior trade-off reasoning]
+  P --> Q[Design judgment under constraints]
 ```
 
 ## What “expert” means here
@@ -73,7 +75,8 @@ An expert does not quote principles as slogans. They can:
 - refactor safely using tests and small steps;
 - reason about change cost, dependency direction, ownership, failure behavior, and team comprehension;
 - distinguish necessary duplication from accidental duplication;
-- detect smells without blindly applying patterns.
+- detect smells without blindly applying patterns;
+- defend a design by naming both its benefit and its accepted downside.
 
 ## Scope boundaries
 
@@ -87,5 +90,11 @@ For every principle ask:
 - **What does misuse look like?**
 - **What trade-off can justify violating it?**
 - **Can I demonstrate it with a before/after code example?**
+
+For senior practice add:
+
+- **What constraints make this choice appropriate?**
+- **What downside am I deliberately accepting?**
+- **What future signal would make me redesign it?**
 
 A senior engineer applies principles with judgment, not ritual.
