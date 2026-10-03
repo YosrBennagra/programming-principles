@@ -61,6 +61,11 @@ The strongest design is often **functional core, imperative shell**: keep busine
 5. Exercise: convert one mutable value object to an immutable design.
 6. Exercise: identify an exposed mutable collection and fix ownership.
 
+## Deep dives
+
+- [Immutable Values & State Modeling](01-value-objects-state.md)
+- [Functional Core & Controlled Mutation](02-functional-core-mutable-boundaries.md)
+
 ## Connections
 
 **Related:** [Computer Science Concurrency](https://github.com/YosrBennagra/computer-science-fundamentals/tree/main/08-concurrency), [Defensive Programming](../12-defensive-programming/README.md).

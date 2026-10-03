@@ -91,4 +91,4 @@ For each deep dive:
 - refactor or design one real example;
 - explain the trade-off you accepted.
 
-Patterns stay in the dedicated design-pattern repository and architecture stays in [software-architecture](https://github.com/YosrBennagra/software-architecture).
+Patterns stay in [design-patterns](https://github.com/YosrBennagra/design-patterns) and architecture stays in [software-architecture](https://github.com/YosrBennagra/software-architecture).

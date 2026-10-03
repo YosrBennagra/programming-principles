@@ -79,6 +79,10 @@ The highest-level principle is **make change safe and reasoning local while pres
 5. Exercise: write a one-page decision record for a current design choice and explicitly list principle conflicts.
 6. Exercise: take one “best practice” in your codebase and state the conditions under which you would intentionally not use it.
 
+## Continue practicing
+
+Apply these conflicts to realistic design decisions in [Senior Practice: Design Judgment Under Constraints](../16-senior-practice/README.md).
+
 ## Connections
 
 **Prerequisite:** complete the earlier sections.

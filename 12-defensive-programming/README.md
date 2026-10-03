@@ -76,6 +76,13 @@ Defensive programming is about defining trust and ownership boundaries. Strong t
 4. Fail fast versus graceful degradation?
 5. Exercise: list all untrusted inputs for one service and define validation/bounds.
 
+## Deep dives
+
+- [Validation & Trust Boundaries](01-validation-trust-boundaries.md)
+- [Resource Bounds & Fail-Safe Behavior](02-resource-bounds-failure.md)
+
 ## Connections
+
+**Specialized continuation:** [Application Security](https://github.com/YosrBennagra/application-security) for security-specific trust-boundary and attack-surface depth.
 
 **Related:** [Error Handling](../10-error-handling/README.md), [Immutability](../07-immutability/README.md), security material from the [Software Engineer Roadmap](https://github.com/YosrBennagra/software-engineer-roadmap).

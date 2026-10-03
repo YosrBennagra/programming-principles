@@ -80,6 +80,12 @@ Error handling is architecture. Define failure contracts, observability, recover
 5. Exercise: build an error taxonomy for one API endpoint.
 6. Exercise: remove one broad catch block and replace it with intentional handling.
 
+## Deep dives
+
+- [Error Taxonomy & Contracts](01-error-taxonomy.md)
+- [Boundary Translation, Retries & Recovery](02-boundaries-retries.md)
+- [Error Logging & Observability](03-logging-observability.md)
+
 ## Connections
 
 **Related:** [Defensive Programming](../12-defensive-programming/README.md), [Software Architecture](https://github.com/YosrBennagra/software-architecture) for resilience patterns.

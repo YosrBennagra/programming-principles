@@ -64,4 +64,4 @@ Critical invariants such as uniqueness or referential integrity often deserve da
 
 **Parent:** [Defensive Programming](README.md).
 
-**Related:** [Object Ownership & Invariants](../01-oop-composition/01-ownership-invariants.md), security material from the master roadmap.
+**Related:** [Object Ownership & Invariants](../01-oop-composition/01-ownership-invariants.md), [Application Security](https://github.com/YosrBennagra/application-security).

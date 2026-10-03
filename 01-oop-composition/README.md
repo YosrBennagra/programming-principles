@@ -90,6 +90,11 @@ OOP should reduce the number of places where a change must be understood. Model 
 5. Exercise: replace one inheritance relationship with composition.
 6. Exercise: identify an invariant and move behavior closer to the state it protects.
 
+## Deep dives
+
+- [Object Ownership & Invariants](01-ownership-invariants.md)
+- [Composition, Polymorphism & Inheritance](02-composition-polymorphism.md)
+
 ## Connections
 
 **Prerequisite:** [Programming Paradigms](../00-paradigms/README.md).

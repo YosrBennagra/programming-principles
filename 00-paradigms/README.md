@@ -68,6 +68,11 @@ A paradigm is a tool for controlling complexity. Senior engineers mix paradigms 
 5. Exercise: rewrite one stateful transformation as a pure function.
 6. Exercise: identify the paradigms used in one production request flow.
 
+## Deep dives
+
+- [Imperative & Declarative Programming](01-imperative-declarative.md)
+- [Functional & Event-Driven Styles](02-functional-event-driven.md)
+
 ## Connections
 
 **Prerequisites:** [Computer Science Fundamentals](https://github.com/YosrBennagra/computer-science-fundamentals).
