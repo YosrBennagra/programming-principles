@@ -74,6 +74,11 @@ Maintainability is an economic property. Spend design effort where future change
 5. Exercise: estimate the blast radius of changing one business rule today.
 6. Exercise: delete one obsolete path and simplify the surrounding design.
 
+## Deep dives
+
+- [Change Cost, Blast Radius & Deletability](01-change-cost.md)
+- [Dependency Health & Operability](02-dependencies-operability.md)
+
 ## Connections
 
 **Related:** [Clean Code](../09-clean-code/README.md), [Refactoring](../11-refactoring/README.md), [Software Architecture](https://github.com/YosrBennagra/software-architecture).

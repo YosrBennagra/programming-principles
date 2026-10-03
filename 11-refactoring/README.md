@@ -74,6 +74,11 @@ Refactoring is the mechanism that lets design evolve after requirements become c
 5. Exercise: take one large method and refactor in behavior-preserving commits.
 6. Exercise: identify and remove one abstraction that no longer pays for itself.
 
+## Deep dives
+
+- [Safe Refactoring Workflow](01-safe-workflow.md)
+- [Legacy Code & Characterization](02-legacy-code.md)
+
 ## Connections
 
 **Prerequisites:** [Clean Code](../09-clean-code/README.md), [Simplicity](../03-simplicity/README.md).

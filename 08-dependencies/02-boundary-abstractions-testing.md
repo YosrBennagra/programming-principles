@@ -60,4 +60,4 @@ If tests know every internal method call, harmless refactoring breaks them. Favo
 
 **Parent:** [Dependency Inversion & Injection](README.md).
 
-**Related:** [Maintainability](../13-maintainability/README.md), testing repositories from the master roadmap.
+**Related:** [Maintainability](../13-maintainability/README.md), [Testing Engineering](https://github.com/YosrBennagra/testing-engineering).

@@ -68,6 +68,11 @@ A good abstraction compresses knowledge. It should remove concepts from the call
 4. What is a wrong abstraction?
 5. Exercise: simplify one generic abstraction that has accumulated flags.
 
+## Deep dives
+
+- [Designing Good Abstractions](01-abstraction-design.md)
+- [Encapsulation & Information Hiding](02-encapsulation-information-hiding.md)
+
 ## Connections
 
 **Related:** [OOP & Composition](../01-oop-composition/README.md), [Simplicity](../03-simplicity/README.md), [Dependencies](../08-dependencies/README.md).

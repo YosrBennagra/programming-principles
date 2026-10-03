@@ -76,7 +76,14 @@ A smell starts a conversation: **what future change is expensive here, and why?*
 5. Exercise: identify three smells in a real module and rank them by actual change risk.
 6. Exercise: refactor one smell without introducing unnecessary patterns.
 
+## Deep dives
+
+- [Structural Code Smells](01-structural-smells.md)
+- [Behavioral & Architectural Smells](02-behavioral-architectural-smells.md)
+
 ## Connections
+
+**Specialized continuation:** [Design Patterns](https://github.com/YosrBennagra/design-patterns) when a concrete refactoring problem genuinely calls for a pattern.
 
 **Prerequisites:** [Maintainability](../13-maintainability/README.md), [Refactoring](../11-refactoring/README.md).
 

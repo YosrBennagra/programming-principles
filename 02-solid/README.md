@@ -68,6 +68,14 @@ SOLID becomes useful when you can name the actual change pressure: “payment pr
 5. Exercise: take one service class and list its independent reasons to change.
 6. Exercise: remove one unnecessary abstraction introduced only to “follow SOLID.”
 
+## Deep dives
+
+- [Single Responsibility Principle](01-srp.md)
+- [Open/Closed Principle](02-ocp.md)
+- [Liskov Substitution Principle](03-lsp.md)
+- [Interface Segregation Principle](04-isp.md)
+- [Dependency Inversion Principle](05-dip.md)
+
 ## Connections
 
 **Prerequisite:** [OOP & Composition](../01-oop-composition/README.md).

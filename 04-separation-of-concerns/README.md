@@ -66,6 +66,11 @@ The purpose of SoC is to make change safer. A boundary is valuable when it prote
 4. When does separation become overengineering?
 5. Exercise: take one endpoint and label transport, application, domain, persistence, and cross-cutting concerns.
 
+## Deep dives
+
+- [Policy, Orchestration & Infrastructure Boundaries](01-policy-boundaries.md)
+- [Cross-Cutting Concerns](02-cross-cutting-concerns.md)
+
 ## Connections
 
 **Related:** [Cohesion & Coupling](../05-cohesion-coupling/README.md), [Software Architecture](https://github.com/YosrBennagra/software-architecture).

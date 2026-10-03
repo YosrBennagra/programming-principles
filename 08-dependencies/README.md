@@ -74,7 +74,14 @@ Dependency direction should follow policy ownership. High-level business rules s
 4. When is an interface unnecessary?
 5. Exercise: redesign a direct vendor dependency around an application-owned contract.
 
+## Deep dives
+
+- [Constructor Injection & Object Graphs](01-constructor-injection-object-graphs.md)
+- [Boundary Abstractions & Test Doubles](02-boundary-abstractions-testing.md)
+
 ## Connections
+
+**Specialized continuation:** [Testing Engineering](https://github.com/YosrBennagra/testing-engineering) for test strategy and test-double depth.
 
 **Prerequisites:** [SOLID](../02-solid/README.md), [Abstraction & Encapsulation](../06-abstraction-encapsulation/README.md).
 

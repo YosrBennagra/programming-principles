@@ -73,6 +73,12 @@ Clean code reduces the number of concepts a reader must keep active at once. Opt
 5. Exercise: rename one unclear service API and simplify its control flow.
 6. Exercise: remove one comment by making the code express the intent.
 
+## Deep dives
+
+- [Naming & API Clarity](01-naming-apis.md)
+- [Functions & Control Flow](02-functions-control-flow.md)
+- [Comments, Side Effects & Readability](03-comments-side-effects.md)
+
 ## Connections
 
 **Related:** [Maintainability](../13-maintainability/README.md), [Refactoring](../11-refactoring/README.md), [Code Smells](../14-code-smells/README.md).

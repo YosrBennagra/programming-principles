@@ -71,6 +71,11 @@ A good modular design makes the **cost of change proportional to the size of the
 4. What makes a dependency stable?
 5. Exercise: identify one highly coupled module and list all forms of coupling, not just imports.
 
+## Deep dives
+
+- [Cohesion & Change Drivers](01-cohesion-change-drivers.md)
+- [Coupling, Stability & Dependency Cost](02-coupling-stability.md)
+
 ## Connections
 
 **Prerequisite:** [Separation of Concerns](../04-separation-of-concerns/README.md).

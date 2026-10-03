@@ -7,7 +7,7 @@ This repository is part of the interconnected knowledge system:
 - [Computer Science Fundamentals](https://github.com/YosrBennagra/computer-science-fundamentals) — underlying CS concepts.
 - [Software Architecture](https://github.com/YosrBennagra/software-architecture) — architecture and system-level decisions.
 
-Detailed design patterns and architecture patterns belong in their dedicated repositories. This repository focuses on **principles for writing and evolving code**.
+Detailed design patterns belong in [design-patterns](https://github.com/YosrBennagra/design-patterns), while architecture material belongs in [software-architecture](https://github.com/YosrBennagra/software-architecture). This repository focuses on **principles for writing and evolving code**.
 
 ## How to use this repository
 
@@ -39,8 +39,8 @@ After the parent topics, use the focused [Deep Dives](DEEP-DIVES.md). After that
 - [ ] 12. [Defensive Programming](12-defensive-programming/README.md)
 - [ ] 13. [Maintainability](13-maintainability/README.md)
 - [ ] 14. [Code Smells & Anti-Patterns](14-code-smells/README.md)
-- [ ] 15. [Senior Synthesis: Principles as Trade-offs](15-senior-synthesis/README.md)
 - [ ] Strengthen the core areas with [Deep Dives](DEEP-DIVES.md)
+- [ ] 15. [Senior Synthesis: Principles as Trade-offs](15-senior-synthesis/README.md)
 - [ ] 16. [Senior Practice: Design Judgment Under Constraints](16-senior-practice/README.md)
 
 ## Topic map

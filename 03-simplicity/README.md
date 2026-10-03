@@ -71,6 +71,11 @@ Simple systems are easier to change because they contain fewer assumptions. Dela
 5. Exercise: remove one speculative abstraction.
 6. Exercise: find duplicated business knowledge and consolidate it safely.
 
+## Deep dives
+
+- [DRY, Knowledge Duplication & Coupling](01-dry-knowledge-duplication.md)
+- [KISS, YAGNI & Complexity Budget](02-kiss-yagni-complexity-budget.md)
+
 ## Connections
 
 **Related:** [SOLID](../02-solid/README.md), [Refactoring](../11-refactoring/README.md), [Maintainability](../13-maintainability/README.md).
