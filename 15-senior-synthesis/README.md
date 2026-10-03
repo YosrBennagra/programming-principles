@@ -87,4 +87,4 @@ Apply these conflicts to realistic design decisions in [Senior Practice: Design 
 
 **Prerequisite:** complete the earlier sections.
 
-**Continue with:** [Software Architecture](https://github.com/YosrBennagra/software-architecture), the dedicated design-pattern material linked from the [Software Engineer Roadmap](https://github.com/YosrBennagra/software-engineer-roadmap), and [Computer Science Fundamentals](https://github.com/YosrBennagra/computer-science-fundamentals).
+**Continue with:** [Software Architecture](https://github.com/YosrBennagra/software-architecture), [Design Patterns](https://github.com/YosrBennagra/design-patterns), and [Computer Science Fundamentals](https://github.com/YosrBennagra/computer-science-fundamentals).

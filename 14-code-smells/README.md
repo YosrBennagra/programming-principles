@@ -87,4 +87,3 @@ A smell starts a conversation: **what future change is expensive here, and why?*
 
 **Prerequisites:** [Maintainability](../13-maintainability/README.md), [Refactoring](../11-refactoring/README.md).
 
-**Patterns:** consult the dedicated design-pattern repository from the [Software Engineer Roadmap](https://github.com/YosrBennagra/software-engineer-roadmap) only when a pattern addresses a demonstrated problem.

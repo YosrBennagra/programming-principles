@@ -85,4 +85,4 @@ Defensive programming is about defining trust and ownership boundaries. Strong t
 
 **Specialized continuation:** [Application Security](https://github.com/YosrBennagra/application-security) for security-specific trust-boundary and attack-surface depth.
 
-**Related:** [Error Handling](../10-error-handling/README.md), [Immutability](../07-immutability/README.md), security material from the [Software Engineer Roadmap](https://github.com/YosrBennagra/software-engineer-roadmap).
+**Related:** [Error Handling](../10-error-handling/README.md), [Immutability](../07-immutability/README.md).
