@@ -82,4 +82,4 @@ SOLID becomes useful when you can name the actual change pressure: “payment pr
 
 **Related:** [Dependencies](../08-dependencies/README.md), [Maintainability](../13-maintainability/README.md).
 
-**Patterns:** use the dedicated design-pattern repository through the [Software Engineer Roadmap](https://github.com/YosrBennagra/software-engineer-roadmap); do not duplicate patterns here.
+**Patterns:** use [Design Patterns](https://github.com/YosrBennagra/design-patterns) only when a concrete design problem calls for one; do not duplicate pattern mechanics here.
