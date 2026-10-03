@@ -1,79 +1,88 @@
-# Privacy Policy for Shape Blaster
+# Programming Principles
 
-**Last Updated: 08/27/2025 **
+A practical **0 → expert** guide to the principles that make software understandable, changeable, testable, and safe to evolve.
 
-## 1. Introduction
+This repository is part of the interconnected knowledge system:
+- [Software Engineer Roadmap](https://github.com/YosrBennagra/software-engineer-roadmap) — master learning order.
+- [Computer Science Fundamentals](https://github.com/YosrBennagra/computer-science-fundamentals) — underlying CS concepts.
+- [Software Architecture](https://github.com/YosrBennagra/software-architecture) — architecture and system-level decisions.
 
-This Privacy Policy describes how **Shape Blaster** ("the Game," "we," "us," or "our") collects, uses, and shares information when you use our mobile game.
+Detailed design patterns and architecture patterns belong in their dedicated repositories. This repository focuses on **principles for writing and evolving code**.
 
-## 2. Information We Collect
+## How to use this repository
 
-### 2.1 Information You Provide
+Every major topic uses the same format:
 
-* Game progress and high scores
-* Settings and preferences
-* Feedback and support communications
+1. **Wall Note / A4** — a short memory trigger.
+2. **Detailed Notes** — what, why, how, examples, trade-offs, mistakes, and senior-level understanding.
+3. **Questions / Exercises** — revision and interview practice.
+4. **Connections** — prerequisites, related topics, and links to specialized repositories.
 
-### 2.2 Information Automatically Collected
+The goal is not to apply every rule mechanically. The goal is to understand the forces behind the rule and know when a trade-off justifies breaking it.
 
-* Device information (device type, operating system, device identifiers)
-* Game usage data (levels played, time spent, gameplay statistics)
-* Performance data (crashes, loading times, frame rates)
+## Learning order
 
-### 2.3 Information from Third Parties
+- [ ] 00. [Programming Paradigms](00-paradigms/README.md)
+- [ ] 01. [OOP & Composition](01-oop-composition/README.md)
+- [ ] 02. [SOLID](02-solid/README.md)
+- [ ] 03. [DRY, KISS & YAGNI](03-simplicity/README.md)
+- [ ] 04. [Separation of Concerns](04-separation-of-concerns/README.md)
+- [ ] 05. [Cohesion & Coupling](05-cohesion-coupling/README.md)
+- [ ] 06. [Abstraction & Encapsulation](06-abstraction-encapsulation/README.md)
+- [ ] 07. [Immutability](07-immutability/README.md)
+- [ ] 08. [Dependency Inversion & Dependency Injection](08-dependencies/README.md)
+- [ ] 09. [Clean Code](09-clean-code/README.md)
+- [ ] 10. [Error Handling](10-error-handling/README.md)
+- [ ] 11. [Refactoring](11-refactoring/README.md)
+- [ ] 12. [Defensive Programming](12-defensive-programming/README.md)
+- [ ] 13. [Maintainability](13-maintainability/README.md)
+- [ ] 14. [Code Smells & Anti-Patterns](14-code-smells/README.md)
+- [ ] 15. [Senior Synthesis: Principles as Trade-offs](15-senior-synthesis/README.md)
 
-* Analytics data from Unity Analytics (if implemented)
-* Advertising data from ad networks (if ads are implemented)
+## Topic map
 
-## 3. How We Use Your Information
+```mermaid
+flowchart TD
+  A[Programming paradigms] --> B[OOP & composition]
+  B --> C[SOLID]
+  C --> D[Separation of concerns]
+  D --> E[Cohesion & coupling]
+  E --> F[Abstraction & encapsulation]
+  F --> G[Dependency inversion & injection]
+  A --> H[Immutability]
+  C --> I[DRY / KISS / YAGNI]
+  I --> J[Clean code]
+  J --> K[Error handling]
+  J --> L[Refactoring]
+  K --> M[Defensive programming]
+  L --> N[Maintainability]
+  M --> N
+  N --> O[Code smells & anti-patterns]
+  O --> P[Senior trade-off reasoning]
+```
 
-We use collected information to:
+## What “expert” means here
 
-* Provide and improve the Game experience
-* Save your game progress and settings
-* Analyze game performance and user behavior
-* Provide customer support
-* Ensure game security and prevent cheating
+An expert does not quote principles as slogans. They can:
+- explain which design force a principle addresses;
+- recognize when principles conflict;
+- prefer simple, explicit designs over ceremonial abstractions;
+- refactor safely using tests and small steps;
+- reason about change cost, dependency direction, ownership, failure behavior, and team comprehension;
+- distinguish necessary duplication from accidental duplication;
+- detect smells without blindly applying patterns.
 
-## 4. Information Sharing
+## Scope boundaries
 
-We do not sell your personal information. We may share information with:
+Use [software-architecture](https://github.com/YosrBennagra/software-architecture) for architecture styles, DDD, microservices, distributed architecture, and system-level patterns. Use the master [software-engineer-roadmap](https://github.com/YosrBennagra/software-engineer-roadmap) to reach language/framework, testing, security, database, DevOps, and design-pattern repositories.
 
-* Service providers who help us operate the Game
-* Analytics providers to understand game usage
-* Legal authorities when required by law
+## Study rule
 
-## 5. Data Storage and Security
+For every principle ask:
 
-* Game data is stored locally on your device
-* We implement reasonable security measures to protect your information
-* No sensitive personal information is required to play the Game
+- **What problem does it prevent?**
+- **What does misuse look like?**
+- **What trade-off can justify violating it?**
+- **Can I demonstrate it with a before/after code example?**
 
-## 6. Children’s Privacy
-
-The Game is suitable for all ages. We do not knowingly collect personal information from children under 13 without parental consent.
-
-## 7. Your Rights
-
-You may:
-
-* Delete the Game to remove locally stored data
-* Contact us to request information about data we may have collected
-* Opt out of analytics (if options are provided in-game)
-
-## 8. Third-Party Services
-
-The Game may use:
-
-* Unity Engine and Unity Analytics
-
-## 9. Changes to This Policy
-
-We may update this Privacy Policy periodically. We will notify users of significant changes through the Game or our website.
-
-## 10. Contact Us
-
-If you have questions about this Privacy Policy, please contact us at:
-
-* Email: iberthing40@gmail.com
-
+A senior engineer applies principles with judgment, not ritual.
