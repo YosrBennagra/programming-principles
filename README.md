@@ -20,6 +20,8 @@ Every major topic uses the same format:
 
 The goal is not to apply every rule mechanically. The goal is to understand the forces behind the rule and know when a trade-off justifies breaking it.
 
+After the parent topics, use the focused [Deep Dives](DEEP-DIVES.md) for senior-level practice and concrete design judgment.
+
 ## Learning order
 
 - [ ] 00. [Programming Paradigms](00-paradigms/README.md)
@@ -38,6 +40,7 @@ The goal is not to apply every rule mechanically. The goal is to understand the 
 - [ ] 13. [Maintainability](13-maintainability/README.md)
 - [ ] 14. [Code Smells & Anti-Patterns](14-code-smells/README.md)
 - [ ] 15. [Senior Synthesis: Principles as Trade-offs](15-senior-synthesis/README.md)
+- [ ] Strengthen the core areas with [Deep Dives](DEEP-DIVES.md)
 
 ## Topic map
 
