@@ -1,6 +1,6 @@
 # Checkout Refactoring Lab — SOLID, DRY, KISS, YAGNI
 
-A small **runnable Spring Boot + JDBC** exercise for changing code structure without changing behavior. Requires Java 21, Maven 3.9+, H2, and JUnit 5. This intentionally narrow example is **not** a production checkout reference architecture.
+A small **runnable Spring Boot 4.1.1 + JDBC** exercise for changing code structure without changing behavior. Requires Java 21, Maven 3.9+, H2, and JUnit 5. This intentionally narrow example is **not** a production checkout reference architecture.
 
 ## Run
 
@@ -9,7 +9,7 @@ cd 16-senior-practice/labs/checkout-refactoring
 mvn test
 ~~~
 
-Maven downloads dependencies on first run. No HTTP server, broker, external database, or vendor SDK is needed. An in-memory H2 database is initialized from `schema.sql`.
+Maven downloads dependencies on first run. The dedicated `spring-boot-starter-jdbc-test` dependency provides Spring/JDBC testing support. This lab intentionally targets an actively supported Spring Boot generation. No HTTP server, broker, external database, or vendor SDK is needed. An in-memory H2 database is initialized from `schema.sql`.
 
 ## Scenario and invariants
 
