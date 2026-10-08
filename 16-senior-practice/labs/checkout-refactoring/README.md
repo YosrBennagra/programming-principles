@@ -1,6 +1,6 @@
 # Checkout Refactoring Lab — SOLID, DRY, KISS, YAGNI
 
-A small **runnable Spring Boot 4.1.1 + JDBC** exercise for changing code structure without changing behavior. Requires Java 21 and Maven 3.9+; the Spring Boot dependency manager supplies H2 and JUnit Jupiter 6. This intentionally narrow example is **not** a production checkout reference architecture.
+A small **runnable Spring Boot 4.1.1 + JDBC** exercise for changing code structure without changing behavior. Requires Java 21 and Maven 3.9+; the POM declares H2 and its JDBC test starter supplies JUnit Jupiter 6. This intentionally narrow example is **not** a production checkout reference architecture.
 
 ## Run
 
