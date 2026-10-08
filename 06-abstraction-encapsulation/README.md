@@ -72,6 +72,7 @@ A good abstraction compresses knowledge. It should remove concepts from the call
 
 - [Designing Good Abstractions](01-abstraction-design.md)
 - [Encapsulation & Information Hiding](02-encapsulation-information-hiding.md)
+- [Law of Demeter & Tell, Don't Ask](03-law-of-demeter-tell-dont-ask.md)
 
 ## Connections
 

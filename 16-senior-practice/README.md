@@ -35,6 +35,8 @@ flowchart LR
 Then use:
 - [Trade-off Matrices](TRADE-OFF-MATRICES.md)
 - [Senior Interview Drills](INTERVIEW-DRILLS.md)
+- [GRASP Responsibility Crosswalk](GRASP-CROSSWALK.md)
+- [Runnable Java/Spring Checkout Refactoring Lab](labs/checkout-refactoring/README.md)
 
 ## Senior standard
 
