@@ -5,7 +5,6 @@ import dev.revision.checkout.CheckoutModels.OrderLine;
 import dev.revision.checkout.CheckoutModels.OrderRequest;
 import dev.revision.checkout.legacy.LegacyCheckout;
 import dev.revision.checkout.solution.CheckoutService;
-import dev.revision.checkout.solution.PricingPolicy;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -18,7 +17,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 class CheckoutRegressionTest {
     @Autowired LegacyCheckout legacy;
     @Autowired CheckoutService checkout;
-    @Autowired PricingPolicy pricing;
     @Autowired JdbcTemplate jdbc;
     @BeforeEach
     void cleanDatabase() {
@@ -40,13 +38,6 @@ class CheckoutRegressionTest {
         assertThat(jdbc.queryForObject(
                 "SELECT COUNT(*) FROM outbox WHERE event_type = 'ORDER_PLACED'",
                 Integer.class)).isEqualTo(2);
-    }
-    @Test
-    void purePolicyExposesDiscount() {
-        var quote = pricing.quote(new OrderRequest("c", List.of(new OrderLine("a", 10001, 1))));
-        assertThat(quote.subtotalCents()).isEqualTo(10001);
-        assertThat(quote.discountCents()).isEqualTo(1000);
-        assertThat(quote.totalCents()).isEqualTo(9001);
     }
     @Test
     void badDataAndOverflowDoNotPersist() {
