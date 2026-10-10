@@ -1,5 +1,7 @@
 # Programming Principles
 
+> **Cheat sheet:** [CHEAT-SHEET.md](CHEAT-SHEET.md) (dense one-to-two-page revision sheet to print and keep on the wall)
+
 A practical **0 → expert** guide to the principles that make software understandable, changeable, testable, and safe to evolve.
 
 This repository is part of the interconnected knowledge system:
